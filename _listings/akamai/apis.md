@@ -33,7 +33,7 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/akamai/events-v2-accountid-events-alerts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/akamai/events-v2-accountid-events-eventid-alerts-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
