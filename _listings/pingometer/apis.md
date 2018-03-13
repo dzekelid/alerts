@@ -25,7 +25,7 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/alerts-recipient-recipient-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/alerts-recipient-post.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
