@@ -15,7 +15,17 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Alerts API
+  description: Pingometer is a service that monitors the uptime, downtime, and performance
+    of websites
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
+  humanURL: ""
+  baseURL: ://api.serverdensity.io./
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/alerts-recipients-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
