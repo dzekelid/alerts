@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Performance
 - Monitoring
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Alerts API
@@ -25,7 +25,7 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/alerts/master/_listings/pingometer/alerts-triggered-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-check-id-check-id-amp;severity-severity-amp;enabled-enabled-amp;target-type-target-type-amp;target-id-target-id-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
