@@ -20,11 +20,20 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-24"
-modified: "2018-03-24"
+created: "2018-03-27"
+modified: "2018-03-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Akamai API
+  description: Akamai Technologies, Inc
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
+  humanURL: ""
+  baseURL: https:///
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/akamai/events-v2-accountid-events-alerts-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
