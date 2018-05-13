@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/akamai/events-v2-accountid-events-eventid-alerts-get.md
-- name: Akamai API List Alerts
-  description: List Alerts
+- name: Akamai API List Alerts per Event
+  description: List Alerts per Event
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/akamai/events-v2-accountid-events-alerts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/akamai/events-v2-accountid-events-eventid-alerts-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
