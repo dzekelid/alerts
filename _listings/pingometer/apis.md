@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-triggered-.md
-- name: Alerts API Alerts Recipient
-  description: Creates a new recipient with one sms and one email target associated.
+- name: Alerts API Alerts Targets
+  description: Gets a list of all alert targets that are visible to you as a customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
   humanURL: https://pingometer.com/
   baseURL: http:://api.serverdensity.io.//
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-recipient-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-targets-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
