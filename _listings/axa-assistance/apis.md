@@ -10,8 +10,8 @@ tags:
 - New
 - internet
 - Insurance
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/information-v1-countries-country-id-alerts-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/information-v1-countries-country-id-alerts-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/axa-assitance
