@@ -32,17 +32,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get-postman.md
-- name: Azure Activity Log API Activity Log Alerts List By Subscription Id
-  description: Get a list of all activity log alerts in a subscription.
+- name: Azure Activity Log API Activity Log Alerts List By Resource Group
+  description: Get a list of all activity log alerts in a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
   humanURL: https://azure.microsoft.com/en-us/services/monitor/
   baseURL: http:://management.azure.com//
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-providers-microsoft-insights-activitylogalerts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-providers-microsoft-insights-activitylogalerts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
