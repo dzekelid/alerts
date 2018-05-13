@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: AXA Assistance
-  description: AXA Assistance is a worldwide specialist for car insurance, travel,
-    health and home services. Trust in Axa Assistance for your insurance!
+  title: AXA Assistance Retrieve the latest alerts for a specified country
+  description: Retrieve the latest alerts for a specified country
   version: 1.0.0
 host: sandbox.api.axa-assistance.com
 basePath: /
