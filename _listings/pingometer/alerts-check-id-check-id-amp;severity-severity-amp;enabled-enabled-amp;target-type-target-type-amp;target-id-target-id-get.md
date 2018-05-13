@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+  description: Gets alerts filtered by set of optional parameters.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
