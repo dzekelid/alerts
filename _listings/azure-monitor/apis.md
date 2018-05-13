@@ -29,9 +29,9 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-activitylogalertname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-activitylogalertname-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-activitylogalertname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-activitylogalertname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
