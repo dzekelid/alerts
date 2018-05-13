@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure Activity Log Alerts API
+  title: Azure Activity Log API Activity Log Alerts Update
   version: 2017-03-01-preview
+  description: Updates an existing ActivityLogAlertResource's tags. To update other
+    fields use the CreateOrUpdate method.
 host: management.azure.com
 basePath: /
 schemes:
