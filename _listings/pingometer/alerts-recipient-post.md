@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Alerts Recipient
+  description: Creates a new recipient with one sms and one email target associated.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
