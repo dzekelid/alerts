@@ -26,15 +26,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-triggered-.md
-- name: Alerts API Deleting an alert
-  description: ""
+- name: Alerts API Listing alerts by subject
+  description: Get a list of all configured alerts for a specific subject (device
+    or service).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
   humanURL: https://pingometer.com/
   baseURL: http:://api.serverdensity.io.//
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-configs-alertid-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-configs-subjectid-.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
