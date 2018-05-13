@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure Activity Log Alerts API
+  title: Azure Activity Log API Activity Log Alerts Create Or Update
   version: 2017-03-01-preview
+  description: Create a new activity log alert or update an existing one.
 host: management.azure.com
 basePath: /
 schemes:
