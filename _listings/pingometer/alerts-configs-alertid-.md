@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Deleting an alert
+  description: ""
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
