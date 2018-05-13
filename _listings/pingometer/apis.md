@@ -26,15 +26,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-triggered-.md
-- name: Alerts API Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
-  description: Gets alerts filtered by set of optional parameters.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
-  humanURL: https://pingometer.com/
-  baseURL: http:://api.serverdensity.io.//
-  tags: Alerts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/alerts-check-id-check-id-amp;severity-severity-amp;enabled-enabled-amp;target-type-target-type-amp;target-id-target-id-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
