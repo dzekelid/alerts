@@ -16,11 +16,11 @@ paths:
       description: List Alerts per Event
       operationId: eventsv2accountideventseventidalerts
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for the account
         type: string
-      - in: Number
+      - in: query
         name: eventId
         description: Unique identifier for the event
         type: string
