@@ -18,8 +18,8 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -35,7 +35,7 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
