@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Listing alerts by subject
+  description: Get a list of all configured alerts for a specific subject (device
+    or service).
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
