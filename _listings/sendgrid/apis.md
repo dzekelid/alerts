@@ -35,9 +35,9 @@ apis:
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
