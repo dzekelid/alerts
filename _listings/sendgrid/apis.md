@@ -36,23 +36,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-patch.md
-- name: SendGrid Add Alerts
-  description: |-
-    **This endpoint allows you to create a new alert.**
-
-    Alerts allow you to specify an email address to receive notifications regarding your email usage or statistics. There are two types of alerts that can be created with this endpoint:
-
-    * `usage_limit` allows you to set the threshold at which an alert will be sent.
-    * `stats_notification` allows you to set how frequently you would like to receive email statistics reports. For example, "daily", "weekly", or "monthly".
-
-    For more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html).
+- name: SendGrid Delete Alerts Alert
+  description: "**This endpoint allows you to delete an alert.**\n\nAlerts allow you
+    to specify an email address to receive notifications regarding your email usage
+    or statistics. \n* Usage alerts allow you to set the threshold at which an alert
+    will be sent.\n* Stats notifications allow you to set how frequently you would
+    like to receive email statistics reports. For example, \"daily\", \"weekly\",
+    or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/alerts-alert-id-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
