@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Triggered alerts
+  description: Get a list of all triggered alerts on your account, per subject (device
+    or service) or per alert config.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
