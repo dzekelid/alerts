@@ -32,7 +32,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get-postman.md
+- name: Azure Activity Log API Activity Log Alerts Create Or Update
+  description: Create a new activity log alert or update an existing one.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: http:://management.azure.com//
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-activitylogalertname-put.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/monitor/
+- type: x-service-level-agreement
+  url: https://azure.microsoft.com/en-us/support/legal/sla/monitor/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/monitor/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
 - type: x-pricing
