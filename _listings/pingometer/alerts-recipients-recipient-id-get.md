@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Alerts Recipients {recipient_id}
+  description: Gets a information about alert recipient's targets.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
