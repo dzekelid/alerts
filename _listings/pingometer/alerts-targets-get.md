@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Alerts API
-  description: The Alerts API.
+  title: Alerts API Alerts Targets
+  description: Gets a list of all alert targets that are visible to you as a customer.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
