@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure Activity Log Alerts API
+  title: Azure Activity Log API Activity Log Alerts List By Subscription Id
   version: 2017-03-01-preview
+  description: Get a list of all activity log alerts in a subscription.
 host: management.azure.com
 basePath: /
 schemes:
