@@ -1,26 +1,59 @@
 ---
 name: VictorOps
-description: VictorOps is a hub for centralizing the flow of information throughout
-  the incident lifecycle. Driven by IT and DevOps system data, VictorOps provides
-  a unified platform for real-time alerting, collaboration, and documentation. Using
-  VictorOps, teams resolve incidents faster to help minimize the impact of downtime
-  and speed innovation.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
+x-slug: victorops
+description: VictorOps incident managament software gives DevOps observability, collaboration,
+  & real-time alerting, to build, deploy, & operate software. Learn more.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.yaml
+x-alexaRank: "196587"
+tags: Alerts
+created: "2018-06-17"
+modified: "2018-06-17"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Victor Ops Retrieve alert details.
+  x-api-slug: victor-ops
+  description: |-
+    Retrieve the details of an alert that was sent VictorOps by you.
+
+    This API may be called a maximum of 6 times per minute.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
+  baseURL: https://api.victorops.com////api-public/v1/alerts/{uuid}
+  tags: Alerts,Uuid
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apipublicv1alertsuuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apipublicv1alertsuuid-get-openapi.md
+- name: Victor Ops
+  x-api-slug: victor-ops
+  description: VictorOps incident managament software gives DevOps observability,
+    collaboration, & real-time alerting, to build, deploy, & operate software. Learn
+    more.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
+  baseURL: https://api.victorops.com//
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/openapi.md
 x-common:
 - type: x-blog
   url: https://victorops.com/blog/
 - type: x-blog-rss
   url: https://victorops.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/victorops
+- type: x-email
+  url: support@victorops.com
+- type: x-email
+  url: info@victorops.com
+- type: x-email
+  url: press@victorops.com
+- type: x-email
+  url: sales@victorops.com
 - type: x-github
   url: https://github.com/victorops
 - type: x-pricing
@@ -28,17 +61,7 @@ x-common:
 - type: x-twitter
   url: https://twitter.com/VictorOps
 - type: x-website
-  url: https://victorops.com
-- type: x-blog
-  url: https://victorops.com/blog/
-- type: x-blog-rss
-  url: https://victorops.com/feed/
-- type: x-github
-  url: https://github.com/victorops
-- type: x-pricing
-  url: https://victorops.com/pricing/
-- type: x-twitter
-  url: https://twitter.com/VictorOps
+  url: http://victorops.com
 - type: x-website
   url: https://victorops.com
 include: []
