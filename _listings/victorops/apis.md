@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-vict
 x-kinRank: "8"
 x-alexaRank: "196587"
 tags: Alerts
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
 apis:
