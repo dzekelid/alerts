@@ -12,9 +12,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Victor Ops
-  x-api-slug: victor-ops
-  description: this-api-allows-you-to-interact-with-the-victorops-platform-in-various-ways--your-account-may-be-limitedto-a-total-number-of-api-calls-per-month--also-some-of-these-api-calls-have-rate-limits-note-in-this-documentation-when-creating-a-sample-curl-request-clicking-the-try-it-out-button-in-some-apiviewing-interfaces-the--in-an-email-address-may-be-encoded--please-note-that-the-rest-endpoints-will-notprocess-the-encoded-version--make-sure-that-the-encoded-character-40-is-changed-to-its-unencoded-form-beforesubmitting-the-curl-request-
+- name: Victor Ops - Retrieve alert details.
+  x-api-slug: apipublicv1alertsuuid-get
+  description: |-
+    Retrieve the details of an alert that was sent VictorOps by you.
+
+    This API may be called a maximum of 6 times per minute.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
   humanURL: http://victorops.com
   baseURL: https://api.victorops.com//
@@ -25,18 +28,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apipublicv1alertsuuid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apipublicv1alertsuuid-get-openapi.md
-- name: Victor Ops
-  x-api-slug: victor-ops
-  description: VictorOps incident managament software gives DevOps observability,
-    collaboration, & real-time alerting, to build, deploy, & operate software. Learn
-    more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
-  humanURL: http://victorops.com
-  baseURL: https://api.victorops.com//
-  tags: Alerts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://vestorly.api.gallery.streamdata.io

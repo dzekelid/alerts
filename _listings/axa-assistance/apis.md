@@ -12,9 +12,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: axa-assistance-is-a-worldwide-specialist-for-car-insurance-travel-health-and-home-services--trust-in-axa-assistance-for-your-insurance
+- name: AXA Assistance - Retrieve the latest alerts worldwide
+  x-api-slug: informationv1countriesalerts-get
+  description: Retrieve the latest alerts worldwide
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
@@ -25,9 +25,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/informationv1countriesalerts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/informationv1countriesalerts-get-openapi.md
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: axa-assistance-is-a-worldwide-specialist-for-car-insurance-travel-health-and-home-services--trust-in-axa-assistance-for-your-insurance
+- name: AXA Assistance - Retrieve the latest alerts worldwide
+  x-api-slug: informationv1countriesalerts-get
+  description: Retrieve the latest alerts worldwide
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
@@ -38,19 +38,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/informationv1countriesalerts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/informationv1countriesalerts-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/informationv1countriesalerts-get-openapi.md
-- name: AXA Assistance
-  x-api-slug: axa-assistance
-  description: AXA Assistance is a worldwide specialist for car insurance, travel,
-    health and home services. Trust in Axa Assistance for your insurance!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
-  humanURL: https://www.axa-assistance.com
-  baseURL: https://sandbox.api.axa-assistance.com//
-  tags: Alerts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.xray.api.gallery.streamdata.io
