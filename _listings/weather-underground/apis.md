@@ -7,19 +7,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weathe
 x-kinRank: "10"
 x-alexaRank: "619"
 tags: Alerts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/weather-underground/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Weather Underground Get Key Alerts Q Ca San Francisco
+- name: Weather Underground
   x-api-slug: weather-underground
-  description: This example will return active severe alerts for San Francisco, California.    This
-    request only works in the USA, Canada and Europe.
+  description: get-forecast-and-weather-data-with-complete-geolocation-services-global-coverage-and-more-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/alerts/q/{state}/San_Francisco.json
-  tags: Weather,Key,Alerts,Q,CA,San,Francisco,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/weather-underground/keyalertsqstatesan-francisco-json-get-postman.md
@@ -37,6 +37,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/weather-underground/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://watchful.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://weather.underground.stack.network
 - type: x-application-gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
 - type: x-crunchbase

@@ -16,7 +16,7 @@ consumes:
 paths:
   ? '/alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} '
   : ' get ':
-      summary: Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+      summary: Alerts
       description: Gets alerts filtered by set of optional parameters.
       operationId: -alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarg
       x-api-path-slug: alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get
@@ -27,7 +27,7 @@ paths:
       - Alerts
   '/alerts/{alert_id} ':
     ' get ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Gets alert by Id.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-get
@@ -37,7 +37,7 @@ paths:
       tags:
       - Alerts
     ' put ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Updates alert.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-put
@@ -47,7 +47,7 @@ paths:
       tags:
       - Alerts
     ' delete ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Deletes alert by Id.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-delete
@@ -58,7 +58,7 @@ paths:
       - Alerts
   '/alerts/{alert_type} ':
     ' post ':
-      summary: Alerts {alert_type}
+      summary: Alerts
       description: Creates a new alert.
       operationId: -alerts-alert-type-
       x-api-path-slug: alertsalert-type-post
@@ -81,7 +81,7 @@ paths:
       - Alerts
   '/alerts/recipients/{recipient_id} ':
     ' get ':
-      summary: Alerts Recipients {recipient_id}
+      summary: Alerts Recipients
       description: Gets a information about alert recipient's targets.
       operationId: -alerts-recipients-recipient-id-
       x-api-path-slug: alertsrecipientsrecipient-id-get
@@ -92,7 +92,7 @@ paths:
       - Alerts
   '/alerts/recipient/{recipient_id} ':
     ' put ':
-      summary: Alerts Recipient {recipient_id}
+      summary: Alerts Recipient
       description: Updates recipient along with sms and email targets associated.
       operationId: -alerts-recipient-recipient-id-
       x-api-path-slug: alertsrecipientrecipient-id-put
@@ -118,6 +118,100 @@ paths:
       description: Gets a list of all alert targets that are visible to you as a customer.
       operationId: -alerts-targets-
       x-api-path-slug: alertstargets-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Alerts
+  /alerts/configs/alertId:
+    delete:
+      summary: Deleting an alert
+      description: Deleting an alert
+      operationId: deleting-an-alert
+      x-api-path-slug: alertsconfigsalertid-delete
+      parameters:
+      - in: path
+        name: alertId
+        description: The ID of the alert to be deleted
+        type: string
+      - in: path
+        name: token
+        description: Your API token
+        type: string
+      - in: body
+        name: token
+        description: Your API token
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: token
+        description: Your API token
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Alerts
+  /alerts/configs/subjectId:
+    get:
+      summary: Listing alerts by subject
+      description: Get a list of all configured alerts for a specific subject (device
+        or service).
+      operationId: listing-alerts-by-subject
+      x-api-path-slug: alertsconfigssubjectid-get
+      parameters:
+      - in: path
+        name: subjectId
+        description: The ID of the subject e
+        type: string
+      - in: path
+        name: subjectType
+        description: The type of the subject - device or service
+        type: string
+      - in: query
+        name: subjectType
+        description: The type of the subject - device or service
+        type: string
+      - in: path
+        name: token
+        description: Your API token
+        type: string
+      - in: query
+        name: token
+        description: Your API token
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Alerts
+  /alerts/triggered:
+    get:
+      summary: Triggered Alerts
+      description: Get a list of all triggered alerts on your account, per subject
+        (device or service) or per alert config.
+      operationId: triggered-alerts
+      x-api-path-slug: alertstriggered-get
+      parameters:
+      - in: query
+        name: closed
+        description: Whether to filter by closed or open alerts - unset = all alerts,
+          false = open alerts, true = closed alerts
+        type: string
+      - in: query
+        name: filter
+        description: You can provide a JSON encoded hash filter for the search that
+          will return items that match the filter
+        type: string
+      - in: query
+        name: subjectType
+        description: The type of the subject - device, service, deviceGroup or serviceGroup
+          if you also specify the subjectId as part of the URL (see examples below)
+        type: string
+      - in: query
+        name: token
+        description: Your API token
+        type: string
       responses:
         200:
           description: OK

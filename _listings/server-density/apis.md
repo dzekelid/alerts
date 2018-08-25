@@ -7,152 +7,975 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server
 x-kinRank: "7"
 x-alexaRank: "209719"
 tags: Alerts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Alerts API Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Gets alerts filtered by set of optional parameters.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
-- name: Alerts API Alerts {alert_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Gets alert by Id.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/{alert_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
-- name: Alerts API Alerts {alert_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Updates alert.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/{alert_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
-- name: Alerts API Alerts {alert_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Deletes alert by Id.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/{alert_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
-- name: Alerts API Alerts {alert_type}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Creates a new alert.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/{alert_type} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
-- name: Alerts API Alerts Recipients
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Gets a list of all alert recipient's targets that are visible to you
-    as a customer.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/recipients '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
-- name: Alerts API Alerts Recipients {recipient_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Gets a information about alert recipient's targets.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/recipients/{recipient_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
-- name: Alerts API Alerts Recipient {recipient_id}
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Updates recipient along with sms and email targets associated.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/recipient/{recipient_id} '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
-- name: Alerts API Alerts Recipient
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Creates a new recipient with one sms and one email target associated.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/recipient '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
-- name: Alerts API Alerts Targets
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Gets a list of all alert targets that are visible to you as a customer.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: '://api.serverdensity.io.///alerts/targets '
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
-- name: Alerts API Deleting an alert
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Deleting an alert
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/configs/alertId
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
-- name: Alerts API Listing alerts by subject
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Get a list of all configured alerts for a specific subject (device
-    or service).
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/configs/subjectId
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
-- name: Alerts API Triggered alerts
+- name: Alerts API
   x-api-slug: alerts-api
-  description: Get a list of all triggered alerts on your account, per subject (device
-    or service) or per alert config.
+  description: the-alerts-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/triggered
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigsalertid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsconfigssubjectid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipient-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientrecipient-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsrecipientsrecipient-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstargets-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertstriggered-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsalert-type-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get-openapi.md
 - name: Alerts API
   x-api-slug: alerts-api
   description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
@@ -164,21 +987,35 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
-- name: History API Listing costs
-  x-api-slug: history-api
-  description: |-
-    Get the alerts history items limited by the given filter. If configId filter is set, then the results contains all events for that alert configuration. In any other case, the results are aggregated by itemId and configId including the following derived values:
-
-    duration the sum of event durations.
-    triggeredCount the number of events for that alert in that item.
-    cost the HumanOps cost in seconds. For more information please check our support docs
-
-
-    When the query is aggregated, the non-derived fields are from the document whose startDate is the newest. In addition to this, an unique id is generated by concatenating the itemId and the configId.
+- name: Dashboards API
+  x-api-slug: dashboards-api
+  description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
+    you improve performance and maintain uptime. Organizer of @humanops
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/history/
+  baseURL: ://api.serverdensity.io./
   tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
+- name: Devices API
+  x-api-slug: devices-api
+  description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
+    you improve performance and maintain uptime. Organizer of @humanops
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
+- name: History API
+  x-api-slug: history-api
+  description: the-history-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertshistory--postman.md
@@ -195,16 +1032,13 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
-- name: Postbacks API Creating a postback
+- name: Postbacks API
   x-api-slug: postbacks-api
-  description: You can use this method to post data back to Server Density without
-    using the agent, for example using your own scripts or to integrate in something
-    custom you are doing. You will still be restricted to posting back once per minute
-    using this method, as you would be using the agent.
+  description: the-postbacks-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/postbacks/
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertspostbacks--openapi.md
@@ -219,15 +1053,13 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
-- name: Service Status API Listing service alert metrics
+- name: Service Status API
   x-api-slug: service-status-api
-  description: Devices and services have different alert metrics which you can configure
-    in the ui. The section correspond to the top-level of the alert metric whereas
-    field corresponds to the subsection of the given section.
+  description: the-service-status-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///alerts/service_alerts.json
-  tags: Alerts
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/alertsservice-alerts-json--postman.md
@@ -244,9 +1076,35 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
+- name: Tokens API
+  x-api-slug: tokens-api
+  description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
+    you improve performance and maintain uptime. Organizer of @humanops
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
+- name: Widgets API
+  x-api-slug: widgets-api
+  description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
+    you improve performance and maintain uptime. Organizer of @humanops
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md
 x-common:
 - type: x-website
   url: https://www.serverdensity.com
+- type: x-api-gallery
+  url: http://sensr.net.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://server.density.stack.network
 - type: x-blog
   url: http://blog.serverdensity.com/
 - type: x-blog-rss

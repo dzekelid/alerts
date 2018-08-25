@@ -15,19 +15,16 @@ produces:
 consumes:
 - application/json
 paths:
-  /information/v1/countries/{country_id}/alerts:
+  /information/v1/countries/alerts:
     get:
-      summary: Retrieve the latest alerts for a specified country
-      description: Retrieve the latest alerts for a specified country
-      operationId: getInformationV1CountriesCountry_idAlerts
-      x-api-path-slug: informationv1countriescountry-idalerts-get
+      summary: Retrieve the latest alerts worldwide
+      description: Retrieve the latest alerts worldwide
+      operationId: getInformationV1CountriesAlerts
+      x-api-path-slug: informationv1countriesalerts-get
       parameters:
       - in: header
         name: accept-language
         description: Language/Country
-      - in: path
-        name: country_id
-        description: country id
       responses:
         200:
           description: OK
@@ -36,7 +33,6 @@ paths:
       - Retrieve
       - the
       - latest
-      - alertsa
-      - specified
-      - country
+      - alertAssistance
+      - worldwide
 ---

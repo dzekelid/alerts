@@ -42,33 +42,82 @@ paths:
       - Alerts
     post:
       summary: Post Alerts
-      description: "### Create an Alert\nCreates a new Alert with the following information:\n\n*
-        ```name``` - Alert Name\n* ```location_name``` - Location name for which the
-        alert pertains (location has to be created earlier)\n* ```notice``` - Prior
-        notice in seconds\n* ```conditions``` - logical expression defining a weather
-        event such as: rain with intensity of more than 1 mm/hr. Several expressions
-        can be concatenated with \u201Cor\u201D logical operator. An alert will trigger
-        for it if any of its contained conditions are met. ORs can contain any number
-        of conditions.\n\nNOTE:\u200B AND condition \u200B coming soon\n\n### In addition
-        to the format below, this is an example with an \"OR\" conditional statement:\n
-        \ ```\n  {\n    \"name\": \"alert with or\",\n    \"location_name\": \"your-location-name\",\n
-        \   \"notice\": 3600,\n    \"conditions\": [\n      {\n        \"or\": [\n
-        \         {\n            \"parameter\": \"Rain\",\n            \"value\":
-        0.15,\n            \"operator\": \"lt\"\n          },\n          {\n            \"parameter\":
-        \"Temperature\",\n            \"value\": 25,\n            \"operator\": \"lt\"\n
-        \         }\n        ]\n      }\n    ],\n    \"groups\": [\n      {\n        \"name\":
-        \"your-group-name\",\n        \"delivery\": {\n          \"sms\": true,\n
-        \         \"email\": false\n        }\n      }\n    ],\n    \"webhooks\":
-        [507f1f77bcf86cd799439011]\n  }\n  ```\n### In addition to the format below,
-        this is an example with an \"AND\" conditional statement:\n\n  ```\n  {\n
-        \   \"name\": \"alert with AND conditions\",\n    \"location_name\": \"your-location-name\",\n
-        \   \"notice\": 3600,\n    \"conditions\": [\n      {\n        \"parameter\":
-        \"Rain\",\n        \"value\": 0.15,\n        \"operator\": \"gt\"\n      },\n
-        \     {\n        \"parameter\": \"Temperature\",\n        \"value\": 40,\n
-        \       \"operator\": \"lt\"\n      }\n    ],\n    \"groups\": [\n      {\n
-        \       \"name\": \"your-group-name\",\n        \"delivery\": {\n          \"sms\":
-        true,\n          \"email\": false\n        }\n      }\n    ],\n    \"webhooks\":
-        [507f1f77bcf86cd799439011]\n  }\n  ```"
+      description: |-
+        ### Create an Alert
+        Creates a new Alert with the following information:
+
+        * ```name``` - Alert Name
+        * ```location_name``` - Location name for which the alert pertains (location has to be created earlier)
+        * ```notice``` - Prior notice in seconds
+        * ```conditions``` - logical expression defining a weather event such as: rain with intensity of more than 1 mm/hr. Several expressions can be concatenated with ???or??? logical operator. An alert will trigger for it if any of its contained conditions are met. ORs can contain any number of conditions.
+
+        NOTE:??? AND condition ??? coming soon
+
+        ### In addition to the format below, this is an example with an "OR" conditional statement:
+          ```
+          {
+            "name": "alert with or",
+            "location_name": "your-location-name",
+            "notice": 3600,
+            "conditions": [
+              {
+                "or": [
+                  {
+                    "parameter": "Rain",
+                    "value": 0.15,
+                    "operator": "lt"
+                  },
+                  {
+                    "parameter": "Temperature",
+                    "value": 25,
+                    "operator": "lt"
+                  }
+                ]
+              }
+            ],
+            "groups": [
+              {
+                "name": "your-group-name",
+                "delivery": {
+                  "sms": true,
+                  "email": false
+                }
+              }
+            ],
+            "webhooks": [507f1f77bcf86cd799439011]
+          }
+          ```
+        ### In addition to the format below, this is an example with an "AND" conditional statement:
+
+          ```
+          {
+            "name": "alert with AND conditions",
+            "location_name": "your-location-name",
+            "notice": 3600,
+            "conditions": [
+              {
+                "parameter": "Rain",
+                "value": 0.15,
+                "operator": "gt"
+              },
+              {
+                "parameter": "Temperature",
+                "value": 40,
+                "operator": "lt"
+              }
+            ],
+            "groups": [
+              {
+                "name": "your-group-name",
+                "delivery": {
+                  "sms": true,
+                  "email": false
+                }
+              }
+            ],
+            "webhooks": [507f1f77bcf86cd799439011]
+          }
+          ```
       operationId: -create-an-alertcreates-a-new-alert-with-the-following-information-name--alert-name-location-name--l
       x-api-path-slug: alerts-post
       parameters:
@@ -115,6 +164,25 @@ paths:
         name: alert
         schema:
           $ref: '#/definitions/holder'
+      - in: path
+        name: alert_id
+        description: UUID of the Alert
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Alerts
+      - Alert
+    delete:
+      summary: Delete Alerts Alert
+      description: |-
+        ### Delete an Alert
+
+        Removes an alert with the ```alert_id``` from the system.
+      operationId: -delete-an-alertremoves-an-alert-with-the-alert-id-from-the-system
+      x-api-path-slug: alertsalert-id-delete
+      parameters:
       - in: path
         name: alert_id
         description: UUID of the Alert

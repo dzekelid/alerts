@@ -7,21 +7,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-vict
 x-kinRank: "8"
 x-alexaRank: "196587"
 tags: Alerts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Victor Ops Retrieve alert details.
+- name: Victor Ops
   x-api-slug: victor-ops
-  description: |-
-    Retrieve the details of an alert that was sent VictorOps by you.
-
-    This API may be called a maximum of 6 times per minute.
+  description: this-api-allows-you-to-interact-with-the-victorops-platform-in-various-ways--your-account-may-be-limitedto-a-total-number-of-api-calls-per-month--also-some-of-these-api-calls-have-rate-limits-note-in-this-documentation-when-creating-a-sample-curl-request-clicking-the-try-it-out-button-in-some-apiviewing-interfaces-the--in-an-email-address-may-be-encoded--please-note-that-the-rest-endpoints-will-notprocess-the-encoded-version--make-sure-that-the-encoded-character-40-is-changed-to-its-unencoded-form-beforesubmitting-the-curl-request-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
   humanURL: http://victorops.com
-  baseURL: https://api.victorops.com////api-public/v1/alerts/{uuid}
-  tags: Alerts,Uuid
+  baseURL: https://api.victorops.com//
+  tags: Orchestration, Stack Network, Technology, SaaS, Enterprise, internet, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apipublicv1alertsuuid-get-postman.md
@@ -40,6 +38,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://vestorly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://victorops.stack.network
 - type: x-blog
   url: https://victorops.com/blog/
 - type: x-blog-rss
@@ -56,6 +58,8 @@ x-common:
   url: sales@victorops.com
 - type: x-github
   url: https://github.com/victorops
+- type: x-openapi
+  url: https://portal.victorops.com/api-docs/victorops-api-v1.yaml
 - type: x-pricing
   url: https://victorops.com/pricing/
 - type: x-twitter
