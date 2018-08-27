@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Alerts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
+- name: BMC Software Merged API - Get Actions (Alerts) List
+  x-api-slug: apiversionactions-get
+  description: Returns a list of actions (alerts) that have been generated for your
+    account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/bmc-software/apiversionactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/bmc-software/apiversionactions-get-openapi.md
 - name: BMC Software Merged API - Get Actions (Alerts) List
   x-api-slug: apiversionactions-get
   description: Returns a list of actions (alerts) that have been generated for your

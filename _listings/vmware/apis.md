@@ -10,11 +10,151 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Alerts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: vRealize Operations 6 - Query Alerts
+  x-api-slug: apialertsquery-post
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertsquery-post-openapi.md
+- name: vRealize Operations 6 - Get Alert
+  x-api-slug: apialerts7c2a4f9afd044300b85ccda555782e86-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialerts7c2a4f9afd044300b85ccda555782e86-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Contributing Symptoms
+  x-api-slug: alertscontributingsymptoms-get
+  description: Added in vROps 6.7
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/alertscontributingsymptoms-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Contributing Symptoms
+  x-api-slug: alertscontributingsymptoms-get
+  description: Added in vROps 6.7
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/alertscontributingsymptoms-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert
+  x-api-slug: apialerts7c2a4f9afd044300b85ccda555782e86-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialerts7c2a4f9afd044300b85ccda555782e86-get-openapi.md
+- name: vRealize Operations 6 - Query Alerts
+  x-api-slug: apialertsquery-post
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertsquery-post-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
+- name: vRealize Operations 6 - Get Alert Definition
+  x-api-slug: apialertdefinitionsalertdefinitionid-get
+  description: 'TODO: Add Description'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apialertdefinitionsalertdefinitionid-get-openapi.md
 x-common:
 - type: x-blog
   url: https://blogs.vmware.com/

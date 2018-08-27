@@ -1,0 +1,280 @@
+{
+	"name": "Streadata.io API Gallery - Alerts",
+	"description": "This is a repository of alerts APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/alerts.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://alerts.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Server Density",
+			"x-api-slug": "server-density",
+			"description": "SaaS infrastructure monitoring. Dashboards, graphs and alerts to help you improve performance and maintain uptime. Organizer of @humanops",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg",
+			"humanURL": "https://www.serverdensity.com",
+			"baseURL": "://api.serverdensity.io./",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BMC Software",
+			"x-api-slug": "bmc-software",
+			"description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg",
+			"humanURL": "http://www.bmc.com",
+			"baseURL": "https:///",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/bmc-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weather Underground",
+			"x-api-slug": "weather-underground",
+			"description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg",
+			"humanURL": "http://www.wunderground.com",
+			"baseURL": "https://api.wunderground.com//api/",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/weather-underground/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingometer",
+			"x-api-slug": "pingometer",
+			"description": "Pingometer is a service that monitors the uptime, downtime, and performance of websites. Get 24/7 monitoring - sign up for your FREE account today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg",
+			"humanURL": "https://pingometer.com/",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apica",
+			"x-api-slug": "apica",
+			"description": "Apicas performance testing and monitoring solutions provide critical peak performance data and 24/7 monitoring of applications and sites around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg",
+			"humanURL": "https://www.apicasystem.com",
+			"baseURL": ":///",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/apica/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/climacell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Alerts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Alerts",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Server Density",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/server-density/apis.yaml"
+		},
+		{
+			"name": "BMC Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/bmc-software/apis.yaml"
+		},
+		{
+			"name": "Weather Underground",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/weather-underground/apis.yaml"
+		},
+		{
+			"name": "Pingometer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/pingometer/apis.yaml"
+		},
+		{
+			"name": "Apica",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/apica/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/climacell/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/alerts/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
